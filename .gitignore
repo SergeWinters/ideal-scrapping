@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Generated data and local planning notes
+/data/
+/PLAN.md
+
+# Chrome profile accidentally created in the project root
+/Default/
+/BrowserMetrics/
+/Crashpad/
+/GPUPersistentCache/
+/GrShaderCache/
+/ShaderCache/
+/OptimizationGuideModelsManifest/
+/Safe Browsing/
+/segmentation_platform/
+/component_crx_cache/
+/extensions_crx_cache/
+/Last Browser
+/Last Version
+/Local State
+/Variations
+/VariationsSafeSeedV2
+/VariationsSeedV2
+
+# Secrets and local environment
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PyInstaller build and release
+build/
+release/
+browser/
+*.spec

@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "bases": [
+    {
+      "path": ".voktty/.gitignore",
+      "version": "1.3.0",
+      "sha256": "f0afe423b0e99b0a3db87bb541847cf25bc18f7b5d7acb0df7ce28868df77a10"
+    },
+    {
+      "path": ".voktty/INDEX.md",
+      "version": "1.3.0",
+      "sha256": "3103eeea98369cdfe1656e096cf1d3421e3d62b089b68a17e579299a57ce1d27"
+    },
+    {
+      "path": ".voktty/INIT.md",
+      "version": "1.3.0",
+      "sha256": "2ac5cb6791c85605c438e815884e5c9249b6cb90de2b47d5f25c61057a4dacec"
+    },
+    {
+      "path": ".voktty/README.md",
+      "version": "1.3.0",
+      "sha256": "634f113a9e346e9b832cf21a2b14b929c0e71ac07baaf3f5f6f27fd0aff2c9ab"
+    },
+    {
+      "path": ".voktty/RULES.md",
+      "version": "1.3.0",
+      "sha256": "ac2acec1924549d22828308a36c79426df0aedbbc3cca82d9ef3440d7fc51b5f"
+    },
+    {
+      "path": ".voktty/architecture/README.md",
+      "version": "1.3.0",
+      "sha256": "eb70ebda1ad725c08c09f356f24e589a06717c015d7cb7b2c3165ee6ba9f750a"
+    },
+    {
+      "path": ".voktty/archive/README.md",
+      "version": "1.3.0",
+      "sha256": "3ce244f1bbdf7c7bea28602f443dbed9f1e0d0db050f8510c1f3fe63568fa9e2"
+    },
+    {
+      "path": ".voktty/capture/README.md",
+      "version": "1.3.0",
+      "sha256": "9e2f2057f47cfba5da4b3991b9f22263051340e67192bb51884e2222f09cab7f"
+    },
+    {
+      "path": ".voktty/capture/compact.md",
+      "version": "1.3.0",
+      "sha256": "47c116860b42c34aa00e83930ed88e7bd37230cd4745cabce9672004f8b55998"
+    },
+    {
+      "path": ".voktty/capture/handoff.md",
+      "version": "1.3.0",
+      "sha256": "ee7cadedc17377f10a21e169f9bda82a806cb4691f67014e0ff0f86c2106b5a1"
+    },
+    {
+      "path": ".voktty/capture/initial.md",
+      "version": "1.3.0",
+      "sha256": "52397a74cbcc32f67e95faa98ea834302a15fc74ec3a840c985e41c6abb22cd9"
+    },
+    {
+      "path": ".voktty/capture/milestone.md",
+      "version": "1.3.0",
+      "sha256": "f0b3a19ccc6c9fc4dbd504d9fa514f77aae38a95c7bb3b73782bde0156853e79"
+    },
+    {
+      "path": ".voktty/capture/refresh.md",
+      "version": "1.3.0",
+      "sha256": "bee4d9e3567e519e8639dcc1a34f18cfffddead6891f91122d9454fcce028ab9"
+    },
+    {
+      "path": ".voktty/continuity/README.md",
+      "version": "1.3.0",
+      "sha256": "bb7f4acb4e50a53f82788b5d1ea2b1bcbdea46ff5cdd51031462a0e5a1e3aedf"
+    },
+    {
+      "path": ".voktty/continuity/handoffs/README.md",
+      "version": "1.3.0",
+      "sha256": "a6764b14fad66c7a71246a917ffd1b325c50b786e00f4d1aa6066ee10cfcc249"
+    },
+    {
+      "path": ".voktty/domains/README.md",
+      "version": "1.3.0",
+      "sha256": "ffae77da8bc7c8aa5f48e66e916eca9aa1b297de0237ff287d6b2348f4d34de4"
+    },
+    {
+      "path": ".voktty/domains/_TEMPLATE.md",
+      "version": "1.3.0",
+      "sha256": "fd58725f671236c9b575d766738f8537dba6c52c7e83bcff18c76b5e50949e5e"
+    },
+    {
+      "path": ".voktty/external/README.md",
+      "version": "1.3.0",
+      "sha256": "26509ab6632db4da6bb1c8f2f9adcf7365a603afba399b50dc4f6cdcf5199156"
+    },
+    {
+      "path": ".voktty/external/_TEMPLATE.md",
+      "version": "1.3.0",
+      "sha256": "20bf734b4b19ac6e284a7a92500c0c1dc1a4ac95678fa74ae3834f75aa8b8b0e"
+    },
+    {
+      "path": ".voktty/kit.schema.json",
+      "version": "1.3.0",
+      "sha256": "b8e12c9470d159dcf98fabd751f9e5ee737b281973b0222c88112860ffb5ee6f"
+    },
+    {
+      "path": ".voktty/plans/README.md",
+      "version": "1.3.0",
+      "sha256": "f1ad1805155348f5169b323ccf9b460c9ef24e4188e77917a378be42d42576da"
+    },
+    {
+      "path": ".voktty/rituals/README.md",
+      "version": "1.3.0",
+      "sha256": "c73501093b88d34263d4308bd0fad7a3d39c7109f5b580281ee9a35a3b3031a2"
+    },
+    {
+      "path": ".voktty/team/MESSAGING.md",
+      "version": "1.3.0",
+      "sha256": "e12f58c4e2e5e2302e39a2d1c23905321a4bca2890db1ba593d2110c9c06b916"
+    },
+    {
+      "path": ".voktty/team/agents.schema.json",
+      "version": "1.3.0",
+      "sha256": "9d5ee842d3d3be5a21fc8d34d7e6fa963b811dbf98663c227b4f42ff193213ce"
+    },
+    {
+      "path": ".voktty/team/roles/developer.md",
+      "version": "1.3.0",
+      "sha256": "6b74d8760b87ff8fbf41021736176ded98b656ac5009a31cd0386240f6d1b3fe"
+    },
+    {
+      "path": ".voktty/team/roles/orchestrator.md",
+      "version": "1.3.0",
+      "sha256": "0f6aaddefc62b24d3494dcf61053585d17d3f32dcfb5a6b4d681ce481aba7010"
+    },
+    {
+      "path": ".voktty/team/roles/verifier.md",
+      "version": "1.3.0",
+      "sha256": "d47ecf4d6881de756f4a503d9154c569d7702b55e98f5dc3bf850aaed3e10d28"
+    }
+  ]
+}

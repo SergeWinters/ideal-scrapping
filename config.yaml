@@ -1,0 +1,63 @@
+# Idealista Madrid deal-finder defaults.
+# Every value here can be overridden with CLI flags (see `python -m idealista --help`).
+
+search:
+  urls:
+    - https://www.idealista.com/venta-viviendas/madrid-madrid/
+  # Page 1 only by default. Pagination pages are disallowed by idealista robots.txt,
+  # so raising max_pages requires --allow-pagination (opt-in).
+  max_pages: 1
+  allow_pagination: false
+  # Random polite delay between requests, in seconds.
+  delay_min: 1.5
+  delay_max: 3.5
+  profile_dir: ""        # empty = ~/.cache/idealista_profile
+  headless: false        # DataDome usually blocks headless; keep the window visible
+  max_details: 40        # how many shortlisted listings get a detail-page visit
+  use_cache: true        # reuse previously enriched detail pages across runs
+  cache_path: data/cache/listings.json
+
+filters:
+  max_price: 305000
+  min_price: 0
+  min_rooms: 2
+  max_rooms: null
+  min_size_m2: 0
+  max_size_m2: null
+  require_elevator: false
+
+market:
+  min_comparables: 8
+  # all_scraped = benchmark from every card on the fetched pages (including
+  # over-budget/room-filtered homes); filtered = use only reported matches.
+  comparables_from: all_scraped
+  outlier_mad_k: 3.5
+  min_price_m2: 500
+  max_price_m2: 20000
+  min_size_m2: 25
+  # Optional manual overrides, e.g. {"Chamberi": 6500}. Empty = compute from listings.
+  reference_eur_m2: {}
+
+scoring:
+  great_deal_pct: -10
+  good_deal_pct: -3
+  overpriced_pct: 3
+  attribute_adjustments:
+    elevator: 0.03
+    exterior: 0.02
+    terrace: 0.02
+    ground_floor: -0.04
+    high_floor_no_elevator: -0.05
+    needs_renovation: -0.10
+
+mortgage:
+  enabled: true
+  down_payment_pct: 20
+  annual_rate_pct: 3.0
+  years: 30
+
+output:
+  dir: data/output
+  top_n: 30
+  write_csv: true
+  link_style: auto       # auto | short (clickable "open") | full URL

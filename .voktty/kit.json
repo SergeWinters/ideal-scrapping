@@ -1,0 +1,48 @@
+{
+  "$schema": "./kit.schema.json",
+  "kit": "voktty-workspace-kit",
+  "kitVersion": "1.3.0",
+  "schema": 1,
+  "project": "idealista_scrapper",
+  "language": "es",
+  "createdAt": "2026-11-19",
+  "init": "INIT.md",
+  "roster": "team/agents.json",
+  "values": {
+    "project_name": "idealista_scrapper",
+    "project_summary": "Describe the project here in one or two sentences.",
+    "owner_title": "the owner",
+    "primary_branch": "main",
+    "verify_commands": "# Add the type check, lint and test commands of this project here.",
+    "language": "es",
+    "created_at": "2026-11-19",
+    "kit_version": "1.3.0",
+    "default_runtime": "claude-code",
+    "default_model": ""
+  },
+  "capture": {
+    "onSessionEnd": true,
+    "beforeCompaction": true,
+    "compactionThresholdPercent": 80,
+    "every": {
+      "turns": 40,
+      "minutes": 0,
+      "commits": 10
+    },
+    "staleAfterCommits": 20
+  },
+  "limits": {
+    "CONTEXT.md": { "maxChars": 4000 },
+    "PROJECT.md": { "maxChars": 12000 },
+    "plans/TRACKING.md": { "maxChars": 15000, "maxUpNext": 20 },
+    "plans/INDEX.md": { "maxChars": 8000 },
+    "continuity/CHANGELOG.md": { "maxChars": 15000 },
+    "continuity/handoffs/": { "maxFiles": 40, "maxAgeDays": 30 }
+  },
+  "archive": {
+    "dir": "archive",
+    "afterDays": 30,
+    "ritual": "weekly"
+  },
+  "runtimeDirs": ["state", "mailbox", "locks", "sessions"]
+}
